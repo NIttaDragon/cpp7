@@ -1,5 +1,5 @@
 #include <iostream>
-#include "olyaCWhole.cpp"
+#include "real7.cpp"
 using namespace std;
 
 int main()

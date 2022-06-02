@@ -1,4 +1,4 @@
-#include "real.h"
+#include "spec7.h"
 using namespace std;
 
 int i;
