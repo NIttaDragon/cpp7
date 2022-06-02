@@ -22,8 +22,8 @@ public:
     CWhole(); //конструктор по умолчанию
     ~CWhole(); //деструктор
     int getn(); // получение количества элементов
-    void del(int id); // удаление объекта по ключу
-    void add(int m[4], int key); //добавление объекта
+    bool del(int id); // удаление объекта по ключу
+    bool add(int m[4], int key); //добавление объекта
     int search(int id); // поиск по ключу
     void output(); //вывод всех векторов
     void outputid(int id); //вывод по ключу
