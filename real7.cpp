@@ -26,6 +26,8 @@ int Matrix::chec(int id) //проверка идентификатора
 {
     if (id == m_key)
       return 1;
+    else
+      return -1;
 }
 
 
@@ -89,7 +91,7 @@ void CWhole::outputid(int id) //вывод по ключу
 {
     {
         for (i = 0; i < kol; i++)
-            if (m_p[i]->chec(id))
+            if ((m_p[i]->chec(id))==1)
                 id = i;
         int *arr = new int[4];
         m_p[id]->gm_M(arr);
